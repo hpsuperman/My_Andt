@@ -1,15 +1,15 @@
 <template>
-  <div>
-    <h1>login</h1>
+  <div class="menhu">
+
   </div>
 </template>
 
 <script>
 export default {
-
+  name:'login'
 }
 </script>
 
-<style>
-
+<style lang="scss">
+@import './login.scss';
 </style>
