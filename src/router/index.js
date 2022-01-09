@@ -16,12 +16,17 @@ export default [{
         {
             path:'/home',
             name:"home",
-            component:()=>import ('../view/home')
+            component:()=>import ('../view/home/home.vue')
         },
         {
             path:'/about',
             name:'about',
-            component:()=>import ('../view/about')
+            component:()=>import ('../view/about/about.vue')
+        },
+        {
+            path:'/new',
+            name:'new',
+            component:()=>import("../view/new/new.vue")
         }
     ]
 }]
