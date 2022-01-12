@@ -1,5 +1,21 @@
+$cl:blue;
+
 .menhu{
     width: 100vw;
     height: 100vh;
-    background-color: #282828;
+    display: flex;
+    background-color: rgb(82, 158, 242);
+}
+.from-wrap{
+    margin:auto;
+    background-color: rgb(60, 168, 114);
+}
+.form-model{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 400px;
 }
